@@ -1,16 +1,5 @@
-<?php $titulo = "Prueba 1"?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?= $titulo ?></title>
-</head>
-<body>
-    <p>FILIGRANA</p>
-    <?php
-        $numero = 1;
-        echo "este numero es $numero";
-    ?>
-</body>
-</html>
+<?php
+$a = 56;
+$b = 34;
+$c = $a + $b;
+print "Hola, la suma es: " . $c;
