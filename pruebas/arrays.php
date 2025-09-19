@@ -11,6 +11,9 @@
         array_push($array, "lentejas");
         $array[] = "patatas";
         print_r($array);
+        foreach ($array as $item) {
+            echo $item;
+        }
     ?>
 </body>
 </html>
