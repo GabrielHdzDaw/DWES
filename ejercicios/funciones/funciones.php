@@ -24,9 +24,7 @@
     // • De momento no haremos nada con los valores de los campos. 
     // • Ayuda: utiliza las funciones sprintf, implode y array_keys. 
 
-    function insert($tableName, $array)
-    {
-
+    function insert($tableName, $array){
         return "INSERT INTO $tableName (" . implode(",", array_keys($array)) . ") VALUES (:" . implode(", :", array_values($array)) . ");";
     }
 
@@ -53,7 +51,7 @@
 
 
     // 8. Funciones. Repite el ejercicio anterior con los siguientes cambios: 
-    // • La cadena resultante se pasará por referencia. 
+    // • La cadena se pasará por referencia. 
     // • Pasaremos la cadena de la siguiente forma: 
     // o INSERT INTO tabla (campos) VALUES (valores) 
     // F Dentro de la función sustituiremos lo siguiente: 
