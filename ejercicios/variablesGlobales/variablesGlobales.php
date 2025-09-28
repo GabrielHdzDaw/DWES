@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Variables globales</title>
 </head>
 
 <body>
@@ -53,7 +53,7 @@
                 echo "<p>$numero es 10</p>";
             }
         } else {
-            echo "<p>$numero es 10</p>";
+            echo "<p>No se ha recibido ningún número</p>";
         }
     }
 
