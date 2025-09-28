@@ -1,0 +1,11 @@
+2. De forma similar al ejercicio anterior, realiza la siguiente llamada: 
+http://localhost/ejercicios/prueba.php?nombre=María&clase=2DAW 
+Contesta las siguientes cuestiones: 
+• El tipo de petición se ha realizado 
+    Petición GET
+• El código devuelto, ya sea de error o de respuesta OK 
+    200 OK
+• La información de la Query String (ventana Payload). Las variables y sus valores 
+recibidos.
+    nombre  Lenteja
+    clase   2ºdaw

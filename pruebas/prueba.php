@@ -6,6 +6,12 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <?php
+        $nombre = $_GET['nombre'] ?? 'Sin nombre';
+        $clase = $_GET['clase'] ?? 'Sin clase';
+
+        echo "<p>Nombre: $nombre";
+        echo "<p>Clase: $clase";
+    ?>
 </body>
 </html>
